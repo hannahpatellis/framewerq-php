@@ -1,6 +1,6 @@
 <?php
 
-require_once($_SERVER['DOCUMENT_ROOT'].'/resource/env.php');
+require_once(__DIR__ . "/env.php");
 
 $mysqli = mysqli_init();
 if (!$mysqli) {

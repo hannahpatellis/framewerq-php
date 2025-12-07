@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512.png">
   <link rel="manifest" href="/site.webmanifest">
-  <title>Document Title</title>
+  <title><?php print($page_title); ?></title>
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
   <meta name="author" content="Alexandria 'Hannah' I. Patellis">
 </head>
