@@ -9,7 +9,7 @@ if (!$mysqli) {
 
 $mysqli -> ssl_set(NULL, NULL, $env["sql_cert"], NULL, NULL);
 
-if (!$mysqli -> real_connect($env['sql_uri'], $env['sql_user'], $env['sql_password'], "dbname", $env['sql_port'])) {
+if (!$mysqli -> real_connect($env['sql_uri'], $env['sql_user'], $env['sql_password'], $env['sql_db'], $env['sql_port'])) {
   die("Connect Error: " . mysqli_connect_error());
 }
 

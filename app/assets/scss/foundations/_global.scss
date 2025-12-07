@@ -11,7 +11,36 @@
   --haip-lpurple: #F0D6F6;
   --haip-dpurple: #8575B9;
 	--haip-dred: #890C2A;
+  --radius: 20px;
 }
 body {
-	font-family: 'Lato', 'Trebuchet MS', Helvetica, Arial, sans-serif;
+	font-family: InterVariable, 'Inter', 'Lato', 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+strong {
+  font-weight: 700;
+}
+em {
+  font-style: italic;
+}
+.serif {
+  font-family: 'Instrument Serif', 'Apple Garamond', 'Garamond', 'Georgia', 'Times New Roman', 'Times', serif;
+  font-weight: normal!important;
 }
