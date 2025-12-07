@@ -1,4 +1,4 @@
-# Framewerq for PHP
+![Framewerq for PHP logo with a manicured hand icon](docs/FramewerqLogo.png "Framewerq for PHP")
 
 My personal boilerplate for building quick PHP apps with SCSS support.
 
